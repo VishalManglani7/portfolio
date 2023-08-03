@@ -1,0 +1,78 @@
+h1{
+    background-color: aqua;
+    font-size: 40px;
+    width: 250px;
+    text-align: right;
+    max-height: 40px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: gray;
+}
+
+nav{
+    width: 50%;
+    display:flex;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+a{
+    color: aqua;
+}
+
+img{
+    max-height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    font-size: 200%;
+    color: navy;
+    padding-right: 20px;
+    display: flex;
+    justify-content: right;
+    width: 30%;
+}
+
+main > * {
+    display:flex;
+    padding: 25px 45px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a[href^="https"] {
+    color: navy;
+    padding: 10px 10px;
+}
+
+div{
+    display: flex;
+    width: 70%;
+    border-left: solid 3px navy;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imageRows > img {
+    padding: 10px 10px;
+}
+
+@media screen and (max-width: 992px) {
+    section, h2, div, p, a {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        border-left: none 3px;
+    }
+}
