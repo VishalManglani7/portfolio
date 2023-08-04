@@ -32,9 +32,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Visuals
 
-Desktop version: https://github.com/VishalManglani7/portfolio/blob/main/assets/portfoliofullscreen.png
+![Desktop version](https://github.com/VishalManglani7/portfolio/blob/main/assets/portfoliofullscreen.png)
 
-Mobile version: https://github.com/VishalManglani7/portfolio/blob/main/assets/portfoliomobile.png
+![Mobile version](https://github.com/VishalManglani7/portfolio/blob/main/assets/portfoliomobile.png)
 
 ## License
 ```
