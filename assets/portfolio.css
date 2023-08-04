@@ -51,7 +51,7 @@ main > * {
 
 a[href^="https"] {
     color: navy;
-    padding: 10px 10px;
+    padding: px 10px;
 }
 
 div{
@@ -74,5 +74,6 @@ div{
         flex-direction: column;
         text-align: center;
         border-left: none 3px;
+        padding: 10px 10px;
     }
 }
